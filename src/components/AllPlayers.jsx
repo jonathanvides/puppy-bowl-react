@@ -59,7 +59,7 @@ function AllPlayers() {
         }
     }
     
-    return (
+    return ( 
         <>
             <div className="puppyForm">
                 <h2>Search</h2>

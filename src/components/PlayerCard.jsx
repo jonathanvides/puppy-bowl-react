@@ -19,7 +19,7 @@ function PlayerCard({ player, remove }) {
             console.error("Failed to delete player!", error);
         }
     }
-
+ 
     return (
         <div className="single-player-card">
             <div className="header-info">

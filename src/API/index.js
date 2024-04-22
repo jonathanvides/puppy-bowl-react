@@ -22,6 +22,6 @@ const fetchSinglePlayer = async (playerId) => {
         console.error("Uh oh, having trouble fetching player!", err);
     }
 }
-
+ 
 
 export { fetchAllPlayers, fetchSinglePlayer }
