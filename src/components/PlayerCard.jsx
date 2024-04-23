@@ -1,6 +1,7 @@
+import React from "react"
 import { useNavigate } from "react-router-dom"
 
-function PlayerCard({ player, remove }) {
+function PlayerCard({ player, removePlayer }) {
 
     //TODO
     //Click a details button on each puppy thats leads you to another page view with specific details on that puppy
@@ -13,7 +14,7 @@ function PlayerCard({ player, remove }) {
             })
             const result = await response.json()
             if (result) {
-                remove(player.id);
+                removePlayer(player.id);
             }
         } catch (error) {
             console.error("Failed to delete player!", error);

@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import AllPlayers from "./components/AllPlayers"
 import SinglePlayer from "./components/SinglePlayer"
+import NewPlayer from "./components/NewPlayer"
 import './App.css'
 
 
@@ -13,6 +14,8 @@ function App() {
   return (
     <>
       <h1>Puppy Bowl</h1>
+      <NewPlayer />
+
       <Routes>
         <Route path="/" element={<AllPlayers />} />
         <Route path="/players" element={<AllPlayers />} />

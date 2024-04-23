@@ -15,7 +15,7 @@ function SinglePlayer() {
             setIsLoading(false)
         }
         getPlayerByID()
-    }, [player])
+    }, [])
 
     if (isLoading) {
         return <h3>Loading...</h3>
